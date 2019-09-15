@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+details {
+  width: 600px;
+  background-color: rgb(242, 233, 252);
+  line-height: 30px;
+  margin-left: 10px;
+
+  box-shadow: 2px 2px 5px black;
+}
+details[open] {
+  background-color: rgb(242, 233, 252);
+}
+summary {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+p {
+  margin-left: 10px;
+  border-left: rgb(255, 196, 0) solid 3px;
+  padding-left: 5px;
+}
+details summary .question {
+  margin-bottom: 0%;
+  font-weight: bold;
+}
+.answer {
+  margin-top: 0%;
+}
